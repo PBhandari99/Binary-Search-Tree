@@ -23,6 +23,9 @@ public:
     void destroyTree();
     void findMin();
     void deleteNode(int);
+    void printInOrder();
+    void printPreOrder();
+    void printPostOrder();
 
 private:
     Node* root;
@@ -30,6 +33,9 @@ private:
     bool search(Node*, int);
     Node* destroyTree(Node*);
     Node* findMinimum(Node*);
+    void printInOrder(Node*);
+    void printPreOrder(Node*);
+    void printPostOrder(Node*);
     Node* deleteNode(Node*, int);
 };
 
