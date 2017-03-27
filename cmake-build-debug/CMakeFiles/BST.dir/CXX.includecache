@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/prashantbhandari/Desktop/workspace/Code/C++/BST/main.cpp
+src/Tree.h
+/Users/prashantbhandari/Desktop/workspace/Code/C++/BST/src/Tree.h
+
+/Users/prashantbhandari/Desktop/workspace/Code/C++/BST/src/Tree.cpp
+Tree.h
+/Users/prashantbhandari/Desktop/workspace/Code/C++/BST/src/Tree.h
+
+/Users/prashantbhandari/Desktop/workspace/Code/C++/BST/src/Tree.h
+iostream
+-
+
